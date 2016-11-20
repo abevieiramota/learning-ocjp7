@@ -1,4 +1,4 @@
-package main.java.br.abevieiramota.ocjp7;
+package br.abevieiramota.ocjp7;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
