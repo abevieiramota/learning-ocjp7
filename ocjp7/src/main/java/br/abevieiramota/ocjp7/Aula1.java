@@ -12,7 +12,7 @@ public class Aula1 {
 	String nome = "tsc";
 	
 	static String nome2;
-
+	
 	@Test
 	public void test() {
 		String nome = "oi";
