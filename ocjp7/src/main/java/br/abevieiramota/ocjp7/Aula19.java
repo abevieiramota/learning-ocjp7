@@ -1,13 +1,13 @@
 package br.abevieiramota.ocjp7;
 
 class A {}
-class B extends A {}
+class B extends Bereu {}
 
 public class Aula19 {
 
 	public static void main(String[] args) {
 		
-		A a;
+		Bereu a;
 		B b = new B();
 		System.out.println(a = b);
 		
