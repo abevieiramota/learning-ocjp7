@@ -17,7 +17,7 @@ class Carro {
 		this.modelo = modelo;
 	}
 }
-public class Aula4 {
+public class Aula04 {
 
 	public static void main(String[] args) {
 		Carro a = new Carro();

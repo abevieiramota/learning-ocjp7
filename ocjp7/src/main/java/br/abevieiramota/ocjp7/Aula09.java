@@ -1,6 +1,6 @@
 package br.abevieiramota.ocjp7;
 
-public class Aula9 {
+public class Aula09 {
 
 	public static void main(String[] args) {
 

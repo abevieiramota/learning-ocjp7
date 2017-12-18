@@ -1,6 +1,6 @@
 package br.abevieiramota.ocjp7;
 
-public class Aula6 {
+public class Aula06 {
 	
 	public static void main(String[] args) {
 		StringBuffer sb = new StringBuffer(); // StringBuilder/Buffer mutável

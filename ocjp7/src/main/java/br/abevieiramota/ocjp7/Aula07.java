@@ -1,6 +1,6 @@
 package br.abevieiramota.ocjp7;
 
-public class Aula7 {
+public class Aula07 {
 
 	public static void main(String[] args) {
 		String a = "oi";

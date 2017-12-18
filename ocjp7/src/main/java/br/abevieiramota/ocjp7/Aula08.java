@@ -1,6 +1,6 @@
 package br.abevieiramota.ocjp7;
 
-public class Aula8 {
+public class Aula08 {
 
 	public static void main(String[] args) {
 		// atribuição, direito deve ser menos específico que o da esquerda

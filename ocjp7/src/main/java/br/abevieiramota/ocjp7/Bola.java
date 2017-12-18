@@ -1,6 +1,17 @@
 package br.abevieiramota.ocjp7;
 
-class Bereu {
+class Bola {
+	
+	private void doSomething() {}
+	
+	class Bolona extends Bola {
+	
+		/** 
+		 * Não conflita com o Bola.doSomething porque Bolona não herda doSomething
+		 */
+		void doSomething() {};
+	}
+	
     public static void main(String[] args) {
         int x[] = new int[3];
         // IA ERRAR PORQUE NÃO ESTÁ AUTOMÁTICO QUE A SEGUNDA PARTE DO FOR É UMA CONDIÇÃO QUE 
