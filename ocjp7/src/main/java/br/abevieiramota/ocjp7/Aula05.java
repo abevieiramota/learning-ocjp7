@@ -35,6 +35,13 @@ class Pessoa {
 }
 
 public class Aula05 {
+	
+	/*
+	 * Java is actually pass-by-value for all variables running within a single JVM
+	 */
+	static void aumentaEmUm(int x) {
+		x += 1;
+	}
 
 	public static void main(String[] args) {
 		Pessoa p = new Pessoa();
@@ -43,5 +50,9 @@ public class Aula05 {
 		p.soma(new int[]{1,2,3,4}); // vargars -> array ou varargs, array só array!
 		System.out.println(p.soma());
 		System.out.println(p.soma(10));
+		
+		int x = 10;
+		aumentaEmUm(x);
+		System.out.println(x);
 	}
 }

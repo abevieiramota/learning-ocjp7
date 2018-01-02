@@ -17,6 +17,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
+/*
+ * an object is eligible for garbage collection when no live thread can access it
+ */
 @RunWith(JUnit4.class)
 public class Aula01 {
 	String nome = "tsc";

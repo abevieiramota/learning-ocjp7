@@ -2,12 +2,12 @@ package br.abevieiramota.ocjp7;
 
 public class Aula03 {
 	
-	/** variável local não tem valor padrão -> só pode ser utilizada se tiver valor */
-	/** variável membro tem valor padrão */
+	/** variável local não tem valor padrão -> só pode ser utilizada se tiver valor !!!!! SEMPRE INICIALIZAR - erro de compilação*/
+	/** variável membro(de instância) tem valor padrão */
 	/** 
 	 * Defaults
 	 * 
-	 * char = 0
+	 * char = 0 = '\u0000'
 	 * boolean = false
 	 * referência = null
 	 * array de variável -> array de defaults das variáveis 
@@ -17,13 +17,13 @@ public class Aula03 {
 	 * 
 	 * char 0 ou mais, 'a', '\u03A9'
 	 * int 0, 1, -123
-	 * ponto flutuante 0.13, -4.3 -> por default double
+	 * ponto flutuante 0.13, -4.3 -> !!! por default double
 	 * long 10L 10l
 	 * float 13.1f 13.1F
 	 * double 12.1D 3.1D
-	 * 0761 -> base octal = 497
-	 * 0xABCDEF 0XABCDEF-> base hexadecimal
-	 * 0b010101 0B010101 -> base binária
+	 * !!!!!!!!!! 0761 -> base octal = 497
+	 * !!!!!!!!!! 0xABCDEF 0XABCDEF-> base hexadecimal
+	 * !!!!!!!!!! 0b010101 0B010101 -> base binária
 	 * 3.1E2 3.1e2 -> 3.1 * 10 ** 2
 	 * 123_234_234 <- underlines entre os números(!DEVE HAVER NÚMERO ANTES E DEPOIS)
 	 */

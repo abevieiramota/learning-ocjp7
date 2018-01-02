@@ -1,9 +1,22 @@
 package br.abevieiramota.ocjp7;
 
 public class Aula07 {
+	
+	static class OiPaizao {
+		@Override
+		public String toString() {
+			return "Oi Paizão";
+		}
+	}
 
 	public static void main(String[] args) {
+		/*
+		 * um objeto -> a
+		 */
 		String a = "oi";
+		/*
+		 * dois objetos -> 'oi' e b
+		 */
 		String b = new String("oi");
 		String c = new String(new char[]{'a', 'b'});
 		String d = new String(new StringBuilder("abelardo"));
@@ -26,6 +39,24 @@ public class Aula07 {
 		// indexOf("oi", 7) -> a partir da posição 7, incluso
 		// lastIndexOf("oi", 14) -> de trás pra frente, que comece em no máximo na posição 14
 		
+		String hello = "Hello.";
+		/*
+		 * chama toString
+		 */
+		hello += new OiPaizao();
+		System.out.println(hello);
 		
+		/*
+		 * equals e equalsIgnoreCase com null = false
+		 */
+		if("oi".equalsIgnoreCase(null)) {
+			
+		}
+		
+		// 12
+		"0123456".substring(1, 3);
+		
+		// saias
+		System.out.println(new StringBuilder().append("as").reverse().insert(2, "ias").toString());
 	}
 }
