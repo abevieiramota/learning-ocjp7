@@ -11,6 +11,8 @@ public class Aula08 {
 		// se valor fora dos limites do tipo, não compila!
 		// char pode converter para int e long
 		char x = 100;
+		char b = (char) 70000;
+		System.out.println((int) b); // 4464
 //		short b = x;
 	}
 }
