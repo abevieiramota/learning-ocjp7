@@ -55,6 +55,13 @@ public class Aula01 {
 //	public static void main(String [] args)
 //	public static void main(String ... args)
 	public static void main(String[] args) {
+		/*
+		 * !!! apesar da identação, o else é do if mais interno!
+		 */
+		if(true)
+			if(false)
+				System.out.println("false");
+		else System.out.println("true");
 	}
 	
 	/** vararg deve ser o último parâmetro
