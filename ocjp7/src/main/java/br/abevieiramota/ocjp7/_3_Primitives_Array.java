@@ -1,6 +1,6 @@
 package br.abevieiramota.ocjp7;
 
-public class Aula03 {
+public class _3_Primitives_Array {
 	
 	/** variável local não tem valor padrão -> só pode ser utilizada se tiver valor !!!!! SEMPRE INICIALIZAR - erro de compilação*/
 	/** variável membro(de instância) tem valor padrão */
@@ -20,7 +20,7 @@ public class Aula03 {
 	 * ponto flutuante 0.13, -4.3 -> !!! por default double
 	 * long 10L 10l
 	 * float 13.1f 13.1F
-	 * double 12.1D 3.1D
+	 * double 12.1d 3.1D
 	 * !!!!!!!!!! 0761 -> base octal = 497
 	 * !!!!!!!!!! 0xABCDEF 0XABCDEF-> base hexadecimal
 	 * !!!!!!!!!! 0b010101 0B010101 -> base binária
@@ -116,9 +116,9 @@ public class Aula03 {
 			System.out.println(c);
 		}
 		
-		Integer a = 10;
-		Integer b = 10;
-		
+		Integer a = 137;
+		Integer b = 137;
+//		!!!!!!!!!!!!!!!!!!!!!!!!!!
 		if(a == b) {
 			System.out.println("oi");
 		}
@@ -130,6 +130,9 @@ public class Aula03 {
 		int [] arr3;
 		int[   ] arr4;
 		int[] arr5[];
+		int[] arrx[], arry;
+		arrx = new int[5][];
+		arry = new int[4];
 		/**
 		 * !! Inválido! não pode especificar o tamanho na declaração
 		 */

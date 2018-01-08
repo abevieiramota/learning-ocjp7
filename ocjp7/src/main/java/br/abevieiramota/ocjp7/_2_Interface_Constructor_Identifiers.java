@@ -1,6 +1,5 @@
 package br.abevieiramota.ocjp7;
 
-import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
@@ -9,7 +8,6 @@ class NaoSouPublic {
 
 /**
  * Interfaces não podem ter métodos:
- * 	* static
  * 	* final
  * 	* strictfp
  * 	* native 
@@ -18,9 +16,13 @@ class NaoSouPublic {
  */
 interface INaoSouPublic {
 	// !!!por padrão, variável é public static final
-	final int TAMANHO = 5;
+	int TAMANHO = 5;
 	// por padrão, o método é public abstract
 	void autentica(String nome, String senha);
+	
+	static void oi() {};
+	
+	strictfp default float hehe() {return 0.0f;};
 }
 
 /**
@@ -33,12 +35,13 @@ interface INaoSouPublic {
  * 
  * !!!!! o arquivo deve estar em diretório com a estrutura do pacote
  */
+
 @RunWith(JUnit4.class)
 /**
  *	!! É permitido apenas uma classe public por arquivo.
  *	!! Se ela houver, deve ter o mesmo nome do arquivo. 
  */
-public class Aula02 {
+public class _2_Interface_Constructor_Identifiers {
 
 	static class Pessoa {
 		
@@ -68,10 +71,5 @@ public class Aula02 {
 		Pessoa Pessoa() {
 			return new Pessoa();
 		}
-	}
-
-	@Test
-	public void test() {
-
 	}
 }

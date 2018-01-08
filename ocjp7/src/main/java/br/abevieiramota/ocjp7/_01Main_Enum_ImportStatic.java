@@ -1,7 +1,7 @@
 package br.abevieiramota.ocjp7;
 
 /**
- * !!! import static org.junit.Assert.assertEquals;
+ * [FIXME] import static org.junit.Assert.assertEquals;
  * é inválido
  * 	   static import org.junit.Assert.assertEquals;
  */
@@ -21,7 +21,7 @@ import org.junit.runners.JUnit4;
  * an object is eligible for garbage collection when no live thread can access it
  */
 @RunWith(JUnit4.class)
-public class Aula01 {
+public class _01Main_Enum_ImportStatic {
 	String nome = "tsc";
 
 	/**
@@ -40,6 +40,7 @@ public class Aula01 {
 	
 	public void setNome(String nome) {
 		this.nome = nome;
+		
 	}
 	
 	public void setIdade(int nome) {
@@ -78,6 +79,15 @@ public class Aula01 {
 		E { void doStuff() {}};
 		// abstract method
 		abstract void doStuff();
-		
+	}
+	
+	enum D {
+		A { void doStuff() {}};
+		void doStuff() {};
+	}
+	
+	enum E {
+		A;
+		void doStuff() {};
 	}
 }

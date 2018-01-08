@@ -1,7 +1,7 @@
 package br.abevieiramota.ocjp7;
 
 /*
- * java 8: interfaces can have static
+ * [FIXME] java 8: interfaces can have static
  */
 interface Hehe {
 	static int num = 0;
@@ -17,30 +17,30 @@ interface Hehe {
 class HeheImpl implements Hehe {
 	
 	/*
-	 * !!!! tem que ter o public, porque implementa e não pode reduzir visibilidade(interface methods are public)
+	 * [FIXME] tem que ter o public, porque implementa e não pode reduzir visibilidade(interface methods are public)
 	 */
 	public void oi() {
 		System.out.println("hehe");
 	}
 }
 
-class Hoho implements Hehe {
-}
+class Hoho implements Hehe {}
 /**
  * Combinações inválidas:
  * 	* abstract final
  * 	* abstract static
  * 	* abstract private
  */
-public abstract class Abstract {
+public abstract class _1_Abstract_Interface {
 	
+	public void oi() {}
 	/**
-	 * se possui um método abstract, deve ser abstract
+	 * [FIXME] se possui um método abstract, deve ser abstract
 	 */
 	abstract void doSomething();
 	
 	/** deve implementar doSomething, ou declará-lo como abstract(sendo abstract portanto) */
-	class NaoAbstract extends Abstract {
+	class NaoAbstract extends _1_Abstract_Interface {
 		
 		void doSomething() {};
 	}

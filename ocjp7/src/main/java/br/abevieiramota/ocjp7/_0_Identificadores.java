@@ -1,6 +1,6 @@
 package br.abevieiramota.ocjp7;
 
-public class $_o0o_$ {
+public class _0_Identificadores {
 	/**
 	 * Identificador deve começar com:
 	 * 	* $
@@ -12,11 +12,11 @@ public class $_o0o_$ {
 	 * 	* letter
 	 * 	* number
 	 * 
-	 *  !!!!!! NÃO PODE COMEÇAR COM NUMBER !!!!!!!!!!
+	 *  [FIXME] IDENTIFICADOR NÃO PODE COMEÇAR COM NUMBER
 	 *  
 	 *  E não pode ser keyword.
 	 *  Keywords incomuns:
-	 *  	* strinctfp -> strict float point
+	 *  	* strictfp -> strict float point
 	 *  	* assert
 	 *  	* transient
 	 *  	* native
